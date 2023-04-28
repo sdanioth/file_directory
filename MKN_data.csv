@@ -1,0 +1,7 @@
+variable,file_path,file_start,file_end,division
+ae33,ae33/data/,ae33,.zip,daily
+aerosol,aerosol/,mkn_,.gz,daily
+g2401,g2401/,CFKA,.zip,daily
+meteo,meteo/,VRXA,0,daily
+tei49c,tei49c/,tei4,.zip,daily
+tei49i,tei49i/,tei4,.zip,daily

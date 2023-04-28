@@ -1,0 +1,11 @@
+variable,file_path,file_start,file_end,division
+OZONE_BREWER,OZONE_BREWER/,QC,.pdf,monthly
+OZONE_ECC_ASAP,OZONE_ECC_ASAP/,20,.TXT,monthly
+OZONE_ECC_ASAP,OZONE_ECC_ASAP/tmp/,20,.TXT,monthly
+OZONE_ECC_ASAP,OZONE_ECC_ASAP/incoming/,20,.TXT,monthly
+OZONE_PROFILES_old,OZONE_PROFILES_old/,OZ,.txt,monthly
+OZONE_SOUNDINGS,OZONE_SOUNDINGS/incoming/,OZ,.txt,monthly
+OZONE_SOUNDINGS,OZONE_SOUNDINGS/incoming/RS41/MWX/,Na,.mwx,yearly
+OZONE_SOUNDINGS,OZONE_SOUNDINGS/incoming/RS41/REPORTS/,oz,.txt,yearly
+OZONE_SOUNDINGS,OZONE_SOUNDINGS/SoundingArchive/,Na,.dc3db,yearly
+OZONE_SURFACE,OZONE_SURFACE/,O3,.txt,monthly
