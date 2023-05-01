@@ -13,12 +13,12 @@ from csv import DictReader
 import sys
 
 
-config = '/home/sdanioth/Documents/git/file_directory/file_directory/config.yaml'
+
+config = os.path.join(os.getcwd(), 'config.yaml')
 
 with open(os.path.abspath(config), "r") as f:
     config = yaml.safe_load(f)
     f.close()
-
 
 source = os.path.expanduser(config['source'+sys.argv[1]])
 general_dir = config['generalPath'+sys.argv[1]]
