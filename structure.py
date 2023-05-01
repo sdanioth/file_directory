@@ -19,15 +19,9 @@ with open(os.path.abspath(config), "r") as f:
     config = yaml.safe_load(f)
     f.close()
 
-if sys.argv[1] == "MKN":
-    source = os.path.expanduser(config['sourceMKN'])
-    general_dir = config['generalPathMKN']
 
-elif sys.argv[1] == "NRB":
-    source = os.path.expanduser(config['sourceNRB'])
-    general_dir = config['generalPathNRB']
-
-
+source = os.path.expanduser(config['source'+sys.argv[1]])
+general_dir = config['generalPath'+sys.argv[1]]
 
 with open(source, "r") as read_obj:
 

@@ -1,7 +1,11 @@
 # file_directory
-Structure files in directory (move files according to name into sub-files). 
+Structure files in directory (move files according to name into sub-files).
 
-How to run in terminal:
+1. Set directory in config file
+2. Make .csv file where folders to be structured are listed
+3. Run in terminal:
+
+E.g.
 
 NRB: `python3 structure.py "NRB"`
 
