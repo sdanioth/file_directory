@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
+generalPathTest: "/product_data/data/pay/Kenya/MKN/incoming/test_structure/"
+sourceTest: "~/My Documents/Praktikum/git/file_directory/Test_data.csv"
 
+generalPathMKN: "/product_data/data/pay/Kenya/MKN/incoming/"
+sourceMKN: "~/My Documents/Praktikum/git/file_directory/MKN_data.csv"
 
-generalPathMKN: "/home/sdanioth/Documents/Test_data/Kenya/MKN/incoming/"
-sourceMKN: "/home/sdanioth/Documents/git/file_directory/file_directory/MKN_data.csv"
-
-generalPathNRB: "/home/sdanioth/Documents/Test_data/Kenya/NRB/"
-sourceNRB: "/home/sdanioth/Documents/git/file_directory/file_directory/NRB_data.csv"
+generalPathNRB: "/product_data/data/pay/Kenya/NRB/"
+sourceNRB: "~/My Documents/Praktikum/git/file_directory/NRB_data.csv"
